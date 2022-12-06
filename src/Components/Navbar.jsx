@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container = styled.div`
-    height: 60px;
+    height: 6vh;
 `
 
 const Wrapper = styled.div`
