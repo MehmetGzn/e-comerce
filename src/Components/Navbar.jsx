@@ -29,6 +29,9 @@ const SearchContainer = styled.div`
     align-items: center;
     margin-left: 25px;
     padding: 5px;
+    &:focus-within {
+        border: 1.8px solid black;
+    }
 `
 const Input = styled.input`
     border: none;

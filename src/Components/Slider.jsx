@@ -76,6 +76,13 @@ const Button = styled.button`
     padding: 10px;
     font-style: 20px;
     background-color: transparent;
+    border: 2px solid black;
+    transition: .1s ease-in-out;
+    &:hover{
+        background-color: lightgray; 
+        color: white;
+        border: 2px solid white;
+    }
 `
 
 

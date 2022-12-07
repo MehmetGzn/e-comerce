@@ -15,7 +15,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
+      img: "https://png2.cleanpng.com/sh/0f4ae7abefeb3a66c71ec4527745cc14/L0KzQYm3UsA6N6JrfZH0aYP2gLBuTfRzbaR4ReV0aYL3Pcj2jfFvNZZ6itH5ZT3kfrW0lPhmNaZzgeZuZD32hLL7hgMuf5DyedC2NXG6dLe9VvI5apNmfKc3MEe2SIGCV8YyPWI9SqI9NUK2RYi5U75xdpg=/kisspng-dress-skirt-woman-europe-and-the-united-states-woman-5a7df66b8bbad5.0738097615182045235723.png",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
