@@ -78,6 +78,7 @@ const Button = styled.button`
     background-color: transparent;
     border: 2px solid black;
     transition: .1s ease-in-out;
+    cursor: pointer;
     &:hover{
         background-color: lightgray; 
         color: white;

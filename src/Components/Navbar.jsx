@@ -56,7 +56,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
     font-style: 14px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 15px;
 `
 
 const Navbar = () => {
