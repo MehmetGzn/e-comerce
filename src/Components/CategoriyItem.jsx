@@ -35,10 +35,12 @@ const Button = styled.button`
   color: white;
   background: gray;
   font-weight: 600;
+  border: 2px solid white;
   cursor: pointer;
   &:hover{
         background-color: lightgray; 
         color: black;
+        border: 2px solid black;
     }
 `
 

@@ -47,7 +47,7 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://png2.cleanpng.com/sh/a42655d40eb8e070ac396a4d8938bba3/L0KzQYm3U8A3N5RriZH0aYP2gLBuTgNsaaVqReVxb3Wwg7BsgftmeqQyiNN9dHX1fn7vjCQub510etN1LYT1dbBrTf9nNahtgeZuLYPrf7b6TcViQZY9SNVrMUW6dYK9TskyPWg7Sqk7MUW1QIS6V8A6QWE9UKM3cH7q/kisspng-skate-shoe-sneakers-pattern-hot-global-trend-of-white-shoes-5a9e80cb157e16.9157627215203370990881.png",
     },
     {
       id:3,
@@ -55,7 +55,7 @@ export const sliderItems = [
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://png2.cleanpng.com/sh/1c4d8ead2c52bebce1784cc986082cb4/L0KzQYm3VME4N5DmfZH0aYP2gLBuTgRweKRthAI2bXBwPbvsgf50NZVqhtt2LYPveb60hvl1NaFmhuZ8LXrocbB6TcVibGc4e6Q6MnPpdYi7TsczP2M4SaUBMUW1Q4qBWcU0P2I9TKU3cH7q/kisspng-topshop-mom-jeans-denim-slim-fit-pants-jeans-5ad63c212cfe74.7272313615239895371843.png",
     },
     {
       id:5,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://png2.cleanpng.com/sh/ec0dc640cba3e7540f87ae85439f4e83/L0KzQYm3UcMyN6t1iZH0aYP2gLBuTgQue5luiuY2aHBydLrsTgNtbZZ7fZ9sbHB3eLr1h711NaRtgeR9LUXkR4OCWcM4OWg3fNQBLkazR4aCWMI6OWY2T6YAOUe5R4GCVMkveJ9s/kisspng-t-shirt-hoodie-sleeve-clothing-t-shirt-5a729937172db6.6075982915174597670949.png",
     },
     {
       id:8,
