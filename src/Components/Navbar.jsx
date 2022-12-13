@@ -28,14 +28,32 @@ const SearchContainer = styled.div`
     display: flex;
     align-items: center;
     margin-left: 25px;
-    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border-bottom: 1.6px solid black;
+        transform: translateX(-100%);
+        transition: .25s ease-in;
+    }
+    &:hover {
+        &::after{
+            transform: translateX(0);
+        }
+    }
     &:focus-within {
-        border: 1.8px solid black;
+        &::after{
+            transform: translateX(0);
+        }
     }
 `
 const Input = styled.input`
     border: none;
     outline: none;
+    padding: 5px;
 `
 
 const Center = styled.div`
@@ -68,7 +86,7 @@ const Navbar = () => {
                     EN
                 </Language>
                 <SearchContainer>
-                    <Input/> 
+                    <Input placeholder='Search'/> 
                     <SearchIcon style={{ color:'gray', fontSize:18}}/>
                 </SearchContainer>
             </Left>
