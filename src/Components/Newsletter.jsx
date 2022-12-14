@@ -55,6 +55,7 @@ const Input = styled.input`
     font-size: 20px;
     outline: none;
     padding-left: 10px;
+    border: none;
 `
 const Button = styled.button`
     width: 7%;
