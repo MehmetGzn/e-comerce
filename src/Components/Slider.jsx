@@ -3,6 +3,7 @@ import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 import { useState } from "react";
 import { sliderItems } from '../data'
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
     width: 100%;
@@ -115,7 +116,7 @@ const Slider = () => {
                     <InfoContatiner>
                         <Title>{item.title}</Title>
                         <Description>{item.desc}</Description>
-                        <Button>SHOP NOW</Button>
+                        <Button><Link style={{textDecoration:"none",color:"black"}} to="/products">SHOP NOW</Link></Button>
                     </InfoContatiner>
                 </Slide>
             ))}

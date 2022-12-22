@@ -4,7 +4,6 @@ import styled from "styled-components"
 const Container = styled.div`
     margin: 20px;
     display: flex;
-
 `
 const Left = styled.div`
     flex: 1;
@@ -72,7 +71,7 @@ const Footer = () => {
   return (
     <Container>
         <Left>
-            <Logo>LAMA.</Logo>
+            <Logo>E-COM</Logo>
             <Desc>
                 There are many variations of Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae error architecto inventore quaerat culpa consectetur, est itaque ad praesentium modi natus? Praesentium doloremque enim ut deserunt dignissimos eos pariatur est.
             </Desc>

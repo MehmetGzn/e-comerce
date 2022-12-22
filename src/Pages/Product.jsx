@@ -21,7 +21,7 @@ const ImgContainer = styled.div`
 const Image = styled.img`
     width: 100%;
     height:85vh;
-    object-fit: cover;
+    object-fit: contain;
 `
 const InfoContainer = styled.div`
     margin: 20px;
@@ -129,18 +129,13 @@ const AddCard = styled.button`
 `
 
 const Product = () => {
-    const handleClick = () => {
-        
-    } 
   return (
     <Container>
         <Announcement/>
         <Navbar/>
         <Wrapper>
             <ImgContainer>
-                <Image src='https://img01.ztat.net/article/spp-media-p1/b43a69c748c34a158586da797744b7f6/5a9132255bd449a89838605a6cf50cc4.jpg?imwidth=1800&filter=packshot'/>
-                {/* https://img01.ztat.net/article/spp-media-p1/756f1f4ddeaf4a399cf4e59f709630d0/aeb3b6b17d0842eabfbca8f0d202ecf2.jpg?imwidth=1800&filter=packshot -------> WHITE */}
-                {/* https://img01.ztat.net/article/spp-media-p1/e30d644f444e4890835208371f41a668/ae40c0dc81074b3abe3d7c7f90530fbe.jpg?imwidth=1800&filter=packshot -------> BLACK */}
+                <Image src='https://img01.ztat.net/article/spp-media-p1/59a581d22f03453598f5105f6ccccc97/9a02e2dd1c2f477ea92590e3affe2f87.jpg?imwidth=1800&filter=packshot'/>
             </ImgContainer>
             <InfoContainer>
                 <Title>T-shirt</Title>
@@ -149,8 +144,8 @@ const Product = () => {
                 <Filter>
                     <FilterText>Color:</FilterText>
                     <FilterContainer>
-                        <ColorFilter onClick={()=>handleClick} color="firebrick"/>
                         <ColorFilter color="black"/>
+                        <ColorFilter color="firebrick"/>
                         <ColorFilter color="lightgray"/>
                     </FilterContainer>
                     <FilterText style={{marginLeft:'20px'}}>Size:</FilterText>

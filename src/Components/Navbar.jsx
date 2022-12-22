@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Badge from '@mui/material/Badge';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
     height: 6vh;
@@ -62,6 +63,7 @@ const Center = styled.div`
 `
 const Logo = styled.h1`
     font-weight: bold;
+    cursor: pointer;
 `
 
 const Right = styled.div`
@@ -71,10 +73,14 @@ const Right = styled.div`
     justify-content: flex-end;
 `
 
-const MenuItem = styled.div`
-    font-style: 14px;
+const MenuItem = styled.span`
+    font-size: 14px;
     cursor: pointer;
     margin-left: 15px;
+    &:hover{
+        font-weight: 600;
+        transform: scale(1.1);
+    }
 `
 
 const Navbar = () => {
@@ -91,14 +97,14 @@ const Navbar = () => {
                 </SearchContainer>
             </Left>
             <Center>
-                <Logo>LAMA.</Logo>
+                <Logo><Link style={{textDecoration:"none",color:"black"}} to="/">E-COM</Link></Logo>
             </Center>
             <Right>
-                <MenuItem>REGISTER</MenuItem>
-                <MenuItem>LOGIN</MenuItem>
+                <MenuItem><Link style={{textDecoration:"none",color:"black"}} to="/register">REGISTER</Link></MenuItem>
+                <MenuItem><Link style={{textDecoration:"none",color:"black"}} to="/login">LOGIN</Link></MenuItem>
                 <MenuItem>
                     <Badge badgeContent={6} color="primary">
-                        <ShoppingCartOutlinedIcon color="action" />
+                        <Link to="/card" style={{color:"black"}}><ShoppingCartOutlinedIcon color="action" /></Link>
                     </Badge>
                 </MenuItem>
             </Right>
