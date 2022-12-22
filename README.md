@@ -1,6 +1,6 @@
-# E-Commerce 
+<h1>E-commerce <h1/>
 
-Creatted for practicing Material-UI
+<h3>It was created to practice with Material-UI and React-Router-Dom. Also to understand how to design the basic e-commerce site.<h3/>
 
 # Getting Started with Create React App
 
