@@ -1,8 +1,8 @@
-<h1>E-commerce <h1/>
-<hr>
-<h3>It was created to practice with Material-UI and React-Router-Dom. Also to understand how to design the basic e-commerce site.<h3/>
-<hr>
-# Getting Started with Create React App
+#E-commerce 
+
+##It was created to practice with Material-UI and React-Router-Dom. Also to understand how to design the basic e-commerce site.
+
+##Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
