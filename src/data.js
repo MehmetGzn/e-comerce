@@ -82,45 +82,4 @@ export const sliderItems = [
       img:"https://img01.ztat.net/article/spp-media-p1/ba9dc1ab27414f54a889dc879cb1c1f6/a857af8520ea426baea25b50f8fcbf6f.jpg?imwidth=1800&filter=packshot",
     },
   ]
-  export const ShirtProducts = [
-    {
-      id:1,
-      img:"https://img01.ztat.net/article/spp-media-p1/81c991a2cca6441eb52a2cb9a4a68d00/73859fbfb5a44f788f673c80ae4df25d.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:2,
-      img:"https://img01.ztat.net/article/spp-media-p1/60881d6c1c01427590f26997f9cc9745/10e6c84f8dd445b1a1bad4894691709b.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:3,
-      img:"https://img01.ztat.net/article/spp-media-p1/7ef65eeba5ba486f8020813ec24f0462/b322cfc3773a48f7b41793a2d55bc214.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:4,
-      img:"https://img01.ztat.net/article/spp-media-p1/59a581d22f03453598f5105f6ccccc97/9a02e2dd1c2f477ea92590e3affe2f87.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:5,
-      img:"https://img01.ztat.net/article/spp-media-p1/ffd57de56e644c2c9b7e2a692c1fb5d7/d0d6a2d83ac641209498f3f64988b0b7.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:6,
-      img:"https://img01.ztat.net/article/spp-media-p1/8c3388acc79e471d957e8f1413937c97/e8d4c9ebd4b64661a9634afe9e82b8fc.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:7,
-      img:"https://img01.ztat.net/article/spp-media-p1/540c0619e3364385a1a177afc1fbea17/f71cff98fc7545709e94cb5aa92ec1a8.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:8,
-      img:"https://img01.ztat.net/article/spp-media-p1/ce1d078c2f7236618fdc808c84a9fc82/a9aeb462a0dc482cab616e81a8baac67.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:9,
-      img:"https://img01.ztat.net/article/spp-media-p1/2f46acac12434539bf0e55eff4c9650f/8535cc8b91724956b9088f1454d145bf.jpg?imwidth=1800&filter=packshot",
-    },
-    {
-      id:10,
-      img:"https://img01.ztat.net/article/spp-media-p1/ba9dc1ab27414f54a889dc879cb1c1f6/a857af8520ea426baea25b50f8fcbf6f.jpg?imwidth=1800&filter=packshot",
-    },
-  ]
+  
