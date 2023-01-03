@@ -1,13 +1,14 @@
+
 export const sliderItems = [
     {
       id: 1,
-      img: "https://png2.cleanpng.com/sh/aa9db1ec6a69d290193f465debef405c/L0KzQYm3UcI3N5poiZH0aYP2gLBuTgdwdZJzRdhqc3jsf7A0kBhweKFuhtk2YnXkhcXCTcViPpM3Sqs6ZkO2crWATsE3Omk1TKs7MUW0RoqAUMY1OWoATqU3cH7q/kisspng-woman-fashion-shopping-beauty-5a6b2291f33bd7.1628049215169706419963.png",
+      img: "./images/sliderPhoto1.png",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
-      img: "https://png2.cleanpng.com/sh/35350733acb2b84151cf910b3d65be32/L0KzQYm3UcI6N6F4iZH0aYP2gLBuTfZie5luh9C2bXBndb20gvlrcZ8yftN8aHnyfn7phfF2fKoyhdHtZXywRbK9hvUyPWM5UaMANkWxRoO7V8E1QWI2TaMCMki0RoKBUsk6PF91htk=/kisspng-fashion-model-bijin-fashion-beauty-model-5a6fe152491565.6247149115172816182994.png",
+      img: "./images/sliderPhoto2.png",
       id: 2,
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
@@ -15,7 +16,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://png2.cleanpng.com/sh/4c03a6cafd47b7de8fea45de63860155/L0KzQYm3UsA6N6JrfZH0aYP2gLBuTfRzbaR4ReV0aYL3Pcj2jfFvNZZ6itH5ZT3kfrW0lPhmNaZzgeZuZD32hLL7hgMuf5DyedC2NXG6dLe9VvI5apNmfKc3MEe2SIGCV8YyPWI9SqI9NUK2RYi5U75xdpg=/kisspng-dress-skirt-woman-europe-and-the-united-states-woman-5a7df66b8bbad5.0738097615182045235723.png",
+      img: "./images/sliderPhoto3.png",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",
@@ -83,3 +84,5 @@ export const sliderItems = [
     },
   ]
   
+
+

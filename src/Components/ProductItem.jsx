@@ -20,7 +20,7 @@ const Container = styled.div`
     flex: 1;
     margin: 5px;
     min-width: 280px;
-    max-width: 300px;
+    max-width: 320px;
     height: 450px;
     display: flex;
     align-items: center;
@@ -31,12 +31,6 @@ const Container = styled.div`
     &:hover ${Info} {
         opacity: 1;
     }
-`
-
-const Image = styled.img`
-    height: 100%;
-    z-index: 2;
-    
 `
 
 const Icon = styled.div`
